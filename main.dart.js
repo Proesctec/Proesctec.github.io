@@ -21253,11 +21253,13 @@ if(e){s=f?360:a.a/3.5
 s=A.hn(B.M,A.bm(b,B.IQ,q),B.F,B.j,q,q,q,360,q,new A.aS(10,10,10,10),q,q,s)}else{s=f?360:a.a/3.5
 r=A.rd(10)
 s=A.hn(B.iF,A.hn(q,A.bm(c,B.ao,q),B.F,q,q,new A.ec(B.j,q,q,r,q,q,B.aH),q,q,q,new A.aS(10,10,10,10),q,q,q),B.F,q,q,new A.ec(q,new A.nY(new A.nA(d,q,q),B.fh),q,q,q,q,B.aH),q,360,q,q,q,q,s)}return s},
-al2(a,b){var s=null,r=b?360:a.a/2.5,q=b?700:350,p=t.E,o=a.a,n=o/2.5
-r=A.d7(A.cy(A.c([A.h_(A.c([A.bm("Servicio",B.ao,s),new A.pc(s)],p),B.A,B.C,B.aC),A.hn(B.vY,A.bm("Realizamos un Diagn\xf3stico y evaluamos el nivel de cumplimiento f\xedsico y documental, con el objetivo de elaborar un plan de trabajo que permita a su empresa dar cumplimiento de manera ordinaria con las obligaciones de las Normas de Seguridad y Salud en el Trabajo.\nNuestro personal est\xe1 especializado en las Normas de Seguridad e Higiene laboral, adem\xe1s de que contamos con unidad de verificaci\xf3n acreditada para la elaboraci\xf3n de los estudios correspondientes.\n",A.e2(s,s,s,s,s,s,s,s,s,s,s,18,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.aE),B.F,s,s,s,s,s,s,s,s,s,n)],p),B.A,B.C),q,r)
-q=b?360:n
-n=b?700:350
-return A.c([r,A.d7(A.cy(A.c([A.h_(A.c([A.bm("\xbfQu\xe9 beneficio hay?",b?B.ao.m9(20):B.ao,s),new A.pc(s)],p),B.A,B.C,B.aC),A.d7(A.bm("1. Evitar incumplimiento de obligaciones por ley.\n2. Evitar multas por parte de las autoridades laborales.\n3. Establecer centros de trabajo m\xe1s seguros.\n4. Hacer m\xe1s eficiente el trabajo.\n5. Reducir costos en primas de riesgos laborales.\n6. Contar con personal capacitado para el desarrollo\nde sus funciones.\n",B.eT,s),s,o/2)],p),B.A,B.C),n,q)],p)},
+al2(a,b){var s,r=null,q=b?360:a.a/2.5,p=b?470:350,o=t.E,n=A.h_(A.c([A.bm("Servicio",B.ao,r),new A.pc(r)],o),B.A,B.C,B.aC),m=b?360:a.a/2.5
+q=A.d7(A.cy(A.c([n,A.hn(B.vY,A.bm("Realizamos un Diagn\xf3stico y evaluamos el nivel de cumplimiento f\xedsico y documental, con el objetivo de elaborar un plan de trabajo que permita a su empresa dar cumplimiento de manera ordinaria con las obligaciones de las Normas de Seguridad y Salud en el Trabajo.\nNuestro personal est\xe1 especializado en las Normas de Seguridad e Higiene laboral, adem\xe1s de que contamos con unidad de verificaci\xf3n acreditada para la elaboraci\xf3n de los estudios correspondientes.\n",A.e2(r,r,r,r,r,r,r,r,r,r,r,18,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),B.aE),B.F,r,r,r,r,r,r,r,r,r,m)],o),B.A,B.C),p,q)
+p=b?360:a.a/2.5
+n=b?470:350
+m=A.h_(A.c([A.bm("\xbfQu\xe9 beneficio hay?",b?B.ao.m9(20):B.ao,r),new A.pc(r)],o),B.A,B.C,B.aC)
+s=b?360:a.a/2
+return A.c([q,A.d7(A.cy(A.c([m,A.d7(A.bm("1. Evitar incumplimiento de obligaciones por ley.\n2. Evitar multas por parte de las autoridades laborales.\n3. Establecer centros de trabajo m\xe1s seguros.\n4. Hacer m\xe1s eficiente el trabajo.\n5. Reducir costos en primas de riesgos laborales.\n6. Contar con personal capacitado para el desarrollo\nde sus funciones.\n",B.eT,r),r,s)],o),B.A,B.C),n,p)],o)},
 awK(a){switch(a.a){case 0:return B.hJ
 case 2:return B.uc
 case 1:return B.ub
