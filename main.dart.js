@@ -83105,7 +83105,7 @@ r=A.py(!1,A.aC("Nosotros",o,o,o,$.bu(),o,o),o,o,!0,o,new A.ZM(),o,r)
 q=A.pz(o,o,B.C,o,o,o,o,o,o,o,o,B.j,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
 q=A.py(!1,A.aC("Recursos",o,o,o,$.bu(),o,o),o,o,!0,o,new A.ZN(),o,q)
 p=A.pz(o,o,B.C,o,o,o,o,o,o,o,o,B.j,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
-return A.d2(A.b([n,new A.tN(o),m,s,r,q,A.py(!1,A.aC("Contacto",o,o,o,$.bu(),o,o),o,o,!0,o,new A.ZO(),o,p),A.a42(o,o,A.dM(B.EQ,o,o,o),o,o,o,new A.ZP(a),o,o,o,o)],t.p),B.t,B.v,B.q)}}
+return A.d2(A.b([n,new A.tN(o),m,s,r,q,A.py(!1,A.aC("Contacto",o,o,o,$.bu(),o,o),o,o,!0,o,new A.ZO(),o,p),A.a42(o,o,A.dM(B.EQ,B.j,o,o),o,o,o,new A.ZP(a),o,o,o,o)],t.p),B.t,B.v,B.q)}}
 A.ZK.prototype={
 $0(){},
 $S:0}
@@ -83238,40 +83238,60 @@ return new A.PC(s)}}
 A.PC.prototype={
 av(){this.aL()
 this.nd()},
-nd(){var s=0,r=A.J(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e
+nd(){var s=0,r=A.J(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$nd=A.F(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:o.ai(new A.aiM(o))
 q=3
-h=o.r
+f=o.r
 s=6
-return A.M(h.fB(),$async$nd)
-case 6:g=b
-s=g==null?7:9
+return A.M(f.fB(),$async$nd)
+case 6:e=b
+s=e==null?7:9
 break
 case 7:s=10
-return A.M(h.hy(),$async$nd)
+return A.M(f.hy(),$async$nd)
 case 10:s=8
 break
-case 9:b=g
+case 9:b=e
 case 8:n=b
+m=n.b
 s=11
 return A.M(n.gxO(),$async$nd)
-case 11:m=b
-h=A.aC4()
-h=new A.wp(new v.G.AbortController())
-l=new A.a2V(m,h)
-k=new A.a_B(new A.Xi(l,"https://www.googleapis.com/","drive/v3/",$.aEU()))
-s=12
-return A.M(new A.a1w(k.a).akM("files(id, name, mimeType, webViewLink)","'1BatsUTjP8ox0i153k5ABZWMMbcrbQ3Do' in parents and trashed = false"),$async$nd)
-case 12:j=b
-o.ai(new A.aiN(o,j))
+case 11:l=b
+f=A.aC4()
+f=new A.wp(new v.G.AbortController())
+k=new A.a2V(l,f)
+j=new A.a_B(new A.Xi(k,"https://www.googleapis.com/","drive/v3/",$.aEU()))
+i=null
+switch(m){case"meiwamoldmmx@gmail.com":i="1sEOmBO7CM7g92Rrl7UR0h9DIEw2yiIVV"
+break
+case"hr.mata.mx@gmail.com":i="1Cs3_mvIOJTdtjCIx1JjoxvzlyPFD_a2O"
+break
+case"ihdz8661@gmail.com":i="1Cs3_mvIOJTdtjCIx1JjoxvzlyPFD_a2O"
+break
+case"katherine.0uram@gmail.com":i="1Cs3_mvIOJTdtjCIx1JjoxvzlyPFD_a2O"
+break
+case"yumecan09@gmail.com":i="1Cs3_mvIOJTdtjCIx1JjoxvzlyPFD_a2O"
+break
+case"salaszamorajoseluis@gmail.com":i="1E16zBwluTIvoHgFRcZRwPyQ0dcUXhnCy"
+break
+case"josedeloera118@gmail.com":i="1E16zBwluTIvoHgFRcZRwPyQ0dcUXhnCy"
+break
+case"victorianmooree1@gmail.com":i="1E16zBwluTIvoHgFRcZRwPyQ0dcUXhnCy"
+break
+case"ajedrezkasparov@gmail.com":i="1E16zBwluTIvoHgFRcZRwPyQ0dcUXhnCy"
+break
+default:i="ID_DE_CARPETA_DEFAULT"}s=12
+return A.M(new A.a1w(j.a).akM("files(id, name, mimeType, webViewLink)","'"+A.m(i)+"' in parents and trashed = false"),$async$nd)
+case 12:h=b
+o.ai(new A.aiN(o,h))
 q=1
 s=5
 break
 case 3:q=2
-e=p.pop()
-i=A.a7(e)
-o.ai(new A.aiO(o,i))
+c=p.pop()
+g=A.a7(c)
+o.ai(new A.aiO(o,g))
 s=5
 break
 case 2:s=1
